@@ -15,6 +15,12 @@ Simple, unopiniated and powerful, it's the perfect skeleton to bootstrap your ne
 
 Modern WordPress Website (MWW) is the perfect tool for experienced PHP developers using WordPress, and for intermediate developers who want to take the next level in their skills.
 
+## Building a Small Project
+
+[![Click to watch on YouTube](https://img.youtube.com/vi/-_PmRfG83Oc/0.jpg)](https://www.youtube.com/watch?v=-_PmRfG83Oc)
+
+[(Click to watch on YouTube)](https://www.youtube.com/watch?v=-_PmRfG83Oc)
+
 ## Installation
 
 Despite being a Theme in practical terms, *Modern WordPress Theme* is installed as a mu-plugin. This way we intercept WordPress requests at an earlier stage and have more control over it.
