@@ -21,8 +21,9 @@ Despite being a Theme in practical terms, *Modern WordPress Theme* is installed 
 
 To get started, simply follow these steps:
 
-- Download or duplicate this repository to **wp-content/mu-plugins/mww** folder.
-- Inside **mww** folder, run `composer update` to generate the autoload files.
+- Create and navigate to wp-content/**mu-plugins** folder
+- Run `git clone https://github.com/Luc45/ModernWordPressWebsite .`
+- Inside the **mww** folder, run `composer update` to generate the autoload files.
 
 Now it's up to you to create awesome stuff!
 
