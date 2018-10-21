@@ -33,6 +33,14 @@ class Core
     }
 
     /**
+     * Procedural Helper Functions
+     */
+    private function loadHelpers()
+    {
+        require_once(MWW_PATH . '/src/helpers.php');
+    }
+
+    /**
      * Enqueues CSS and JS
      */
     private function loadAssets()
@@ -43,13 +51,5 @@ class Core
             add_action('wp_enqueue_scripts', [$assets, 'enqueueStyles']);
             add_action('wp_enqueue_scripts', [$assets, 'enqueueJavascripts']);
         }
-    }
-
-    /**
-     * Procedural Helper Functions
-     */
-    private function loadHelpers()
-    {
-        require_once(MWW_PATH . '/src/helpers.php');
     }
 }
