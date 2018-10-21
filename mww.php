@@ -9,19 +9,22 @@
  * License: GPL2
  */
 
-// Composer autoloader
-if (file_exists(__DIR__ . '/vendor/autoload.php')) {
-    require_once(__DIR__ . '/vendor/autoload.php');
+/** This file contains the bare-minimum code to run the Core class. */
+use MWW\Core;
+
+/**
+ *  Subfolder in mu-plugins folder that holds the project.
+ *  @see https://codex.wordpress.org/Must_Use_Plugins
+ */
+define('MWW_FOLDER', '/mww');
+define('MWW_PATH', __DIR__ . MWW_FOLDER);
+define('MWW_URL', plugin_dir_url(__FILE__) . MWW_FOLDER);
+
+if (file_exists(MWW_PATH .'/vendor/autoload.php')) {
+    require_once(MWW_PATH .'/vendor/autoload.php');
 } else {
-    throw new Exception('You need to run "composer update" in the following folder "' . __DIR__ . '" to get started.');
+    throw new Exception('You need to run "composer update" in the following folder "' . MWW_PATH . '" to get started.');
 }
 
-require_once(__DIR__ . '/src/helpers.php');
-
-// Constants we will use later on
-define('MWW_PATH', __DIR__);
-define('MWW_URL', plugin_dir_url(__FILE__));
-
-// Bootstraps the Website
-$mwt = new MWW\Core;
-$mwt->run();
+$mww = new Core();
+$mww->run();
