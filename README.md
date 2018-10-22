@@ -31,7 +31,7 @@ Modern WordPress Website (MWW) is great for experienced PHP developers using Wor
 
 Despite being a Theme in practical terms, *Modern WordPress Website* is installed as a mu-plugin. This way we intercept WordPress requests at an earlier stage and have more control over it.
 
-To get started, simply follow these steps:
+To get started, simply follow these steps in a clean WordPress installation:
 
 - Create wp-content/**mu-plugins** folder.
 - Run `git clone https://github.com/Luc45/ModernWordPressWebsite .` inside **mu-plugins** folder.
