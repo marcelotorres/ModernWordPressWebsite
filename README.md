@@ -35,7 +35,7 @@ To get started, simply follow these steps in a clean WordPress installation:
 
 - Create wp-content/**mu-plugins** folder.
 - Run `git clone https://github.com/Luc45/ModernWordPressWebsite .` inside **mu-plugins** folder.
-- Run `composer update` inside the recently created **mww** folder to generate the autoload files.
+- Run `composer update` inside the recently created **mu-plugins/mww/** folder to generate the autoload files.
 - (Recommended) You will not need your theme anymore, you can create an empty theme with just index.php, style.css and functions.php. [Download empty theme](https://github.com/Luc45/EmptyTheme/archive/master.zip).
 
 Now it's up to you to create awesome stuff!
