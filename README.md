@@ -21,15 +21,22 @@ Modern WordPress Website (MWW) is great for experienced PHP developers using Wor
 
 [(Click to watch on YouTube)](https://www.youtube.com/watch?v=-_PmRfG83Oc)
 
+## Building a Small Project (Português PT-BR)
+
+[![Click to watch on YouTube](https://img.youtube.com/vi/NGQ2siW5DwI/0.jpg)](https://www.youtube.com/watch?v=NGQ2siW5DwI)
+
+[(Click to watch on YouTube)](https://www.youtube.com/watch?v=NGQ2siW5DwI)
+
 ## Installation
 
 Despite being a Theme in practical terms, *Modern WordPress Theme* is installed as a mu-plugin. This way we intercept WordPress requests at an earlier stage and have more control over it.
 
 To get started, simply follow these steps:
 
-- Create and navigate to wp-content/**mu-plugins** folder
-- Run `git clone https://github.com/Luc45/ModernWordPressWebsite .`
-- Inside the **mww** folder, run `composer update` to generate the autoload files.
+- Create and navigate to wp-content/**mu-plugins** folder.
+- Run `git clone https://github.com/Luc45/ModernWordPressWebsite .` inside **mu-plugins** folder.
+- It will create a folder called **mww**.  Run `composer update` inside **mww** folder to generate the autoload files.
+- (Recommended) You will not need your theme anymore, you can create an empty theme with just index.php, style.css and functions.php. [Download empty theme](https://github.com/Luc45/EmptyTheme/archive/master.zip).
 
 Now it's up to you to create awesome stuff!
 
